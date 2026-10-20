@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <link rel="icon" href="file.svg">
+  <title>jiangjiewei</title>
+  <link href="css/chunk-vendors.75679893.css" rel="stylesheet">
+  <link href="css/app.868b886c.css" rel="stylesheet">
+</head>
+<body>
+  <noscript><strong>We're sorry but jiangjiewei doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+  <div id="app"></div>
+  <script src="js/lib/vue.global.prod.js"></script>
+  <script src="js/lib/element-plus.js"></script>
+  <script>
+const StudyDirection = { template: `  <div class="component" data-v-4c13f9b2>
+    <div class="author" data-v-4c13f9b2>教育经历</div>
+    <ul data-v-4c13f9b2>
+        <li class="row" data-v-4c13f9b2>2014.09-2018.12，西安电子科技大学计算机科学与技术学院 计算机系统结构专业，获工学博士学位；</li>
+        <li data-v-4c13f9b2>2006.09-2009.04，西安邮电大学通信与信息系统专业，获工学硕士学位；</li>
+        <li data-v-4c13f9b2>2002.09-2006.07，河南大学通信工程专业，获工学学士学位。</li>
+        
+    </ul>
+    <div class="author" data-v-4c13f9b2>任职经历</div>
+    <ul data-v-4c13f9b2>
+        <li data-v-4c13f9b2>2025.06-至今，西安邮电大学，电子工程学院，电子信息工程系主任；</li>
+        <li data-v-4c13f9b2>2023.12-至今，西安邮电大学，电子工程学院，副教授(直接认定)；</li>
+        <li data-v-4c13f9b2>2018.12-2023.12，西安邮电大学，电子工程学院，讲师；</li>
+        <li data-v-4c13f9b2>2009.04-2014.07，中兴通讯有限责任公司手机事业部，软件开发工程师。</li>
+    </ul>
+    <div class="author" data-v-4c13f9b2>研究方向</div>
+    <ul data-v-4c13f9b2>
+        <li data-v-4c13f9b2>机器学习、深度学习、计算机视觉、眼科疾病诊断和预测、工业智能等。</li>
+    </ul>
+ <div class="author" data-v-4c13f9b2>教学方向</div>
+    <ul data-v-4c13f9b2>
+        <li data-v-4c13f9b2>计算机视觉、机器学习、图像处理、光电信息工程和电子信息工程相关课程。</li>
+    </ul>
+<div class="author" data-v-4c13f9b2>学术相关</div>
+    <ul data-v-4c13f9b2>
+        <li data-v-4c13f9b2>在眼科人工智能领域深耕多年，与温州医科大学附属宁波市眼科医院、温州医科大学、中山大学中山眼科中心、
+            西安电子科技大学等保持着长期密切的合作关系。主持国家自然科学基金面上项目1项、陕西省自然科学基础研究计划面上项目1项、
+            医院及企业委托横向项目5项，并以项目骨干参与国家重点研发计划、广东省科技计划重点项目、国家自然科学基金面上项目多项。
+            在眼科人工智能领域深耕多年，与中山大学中山眼科中心、温州医科大学、宁波市眼科医院、西安电子科技大学等保持着密切的合作关系。主持国家自然科学基金面上项目1项、陕西省重点研发计划项目1项、陕西省自然科学基础研究计划面上项目1项、医院及企业委托横向项目6项，并以项目骨干参与国家重点研发计划、广东省科技计划重点项目、国家自然科学基金面上项目多项。以第一/共一/通讯作者在Nature Communications、Cell Reports Medicine、NPJ Digital Medicine、Information Fusion、Research、Expert Systems with Applications、Journal of Big Data、Journal of Biomedical Informatics、电子与信息学报等期刊发表论文30余篇，参与编写专著1部，已授权的国家发明专利3项、欧洲和美洲区国际发明专利2项。指导学生获国家级、省部级竞赛奖项、本硕优秀毕业论文等20余次，包括研究生电子设计竞赛全国二等奖和三等奖各1项、研究生数学建模竞赛全国二等奖6项、三等奖9项、研究生人工智能创新大赛全国三等奖1项。</li>
+    </ul>
+   
+    
+  </div>` };
+const Treatise = { template: `  <div class="component" data-v-00d426b3>
+
+    <div class="direct" data-v-00d426b3>为本科生开设《离散数学》、《高级语言程序设计》、《数据库原理及应用》，为研究生开设
+
+《科研方法论》等课程。</div>
+
+    
+
+   
+
+  </div>` };
+const StudentInformation = { template: `  <div class="component" data-v-76b82b8d>
+
+    <ul data-v-76b82b8d>
+
+        <li data-v-76b82b8d>国家自然科学基金委员会，面上项目，密集标注联合可解释特征的角膜炎自动诊断和预测研究，2023年1月至2026年12月，53万，主持；</li>
+
+        <li data-v-76b82b8d>陕西省重点研发计划项目，基于细粒度特征的角膜炎分级诊断关键技术研究，2025年5月至2027年4月，10万，主持；</li>
+
+        <li data-v-76b82b8d>陕西省自然科学基础研究计划项目，面上项目，基于深度学习的眼前段疾病智能诊断和预测方法研究，2022年1月至2023年12月，5万，主持；</li>
+
+        <li data-v-76b82b8d>企业合作项目，横向项目，基于深度学习的语音数字自动识别算法研发， 2022年4月至2022年12月，10万，主持；</li>
+
+        <li data-v-76b82b8d>医院合作项目，横向项目，基于深度学习的多眼病自动诊断系统研发， 2021年10月至2022年10月，29.8万，主持；</li>
+
+        <li data-v-76b82b8d>企业合作项目，横向项目，基于大数据的智慧教育自动监控与评估系统，2019年5月至2022年4月，40万，主持；</li>
+
+        <li data-v-76b82b8d>国家自然科学基金委员会，面上项目，异构多模态信息融合的青少年抑郁症识别与跟踪研究，2024-01-01至2027-12-31，49万元，参与；</li>
+
+        <li data-v-76b82b8d>国家自然科学基金委员会，面上项目，基于人工智能多模态影像技术的圆锥角膜早期诊断研究，2023-01-01至2026-12-31，50万元，参与；</li>
+
+        <li data-v-76b82b8d>国家自然科学基金委员会，面上项目，基于光镊操纵的单颗粒稀土掺杂纳米晶精准俘获及光谱调控机理研究，2023-01-01至2026-12-31，55万元，参与；</li>
+
+        <li data-v-76b82b8d>国家自然科学基金委员会，重大研究计划，多模影像分析联合多组学策略解析肝癌时空异质性的研究，2019-01-01至2021-12-31，70万元，参与；</li>
+
+        <li data-v-76b82b8d>广东省科技厅，广东省重点领域研发计划，医疗数据标注技术体系、通用数据知识库和智能应用平台的建设，2019-01 至 2021-12，500万元，参与；</li>
+
+        <li data-v-76b82b8d>国家科学技术部，国家重点研发计划，常见致盲、致畸、致死疾病的人工智能筛查诊断系统研发和临床试验，2018-08至2021-07，723万，参与。</li>
+
+
+
+    </ul>
+
+
+
+
+
+
+
+    
+
+  </div>` };
+const ScientificTeam = { template: `  <div class="component" data-v-2ac0dc42>
+
+    <ul data-v-2ac0dc42>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang, Haiyang Liu, Lang He, Mengjie Pei, Tongtong Lin, Hailong Yang, Junhua Yang, Jiamin Gong, Xumeng Wei, Mingmin Zhu, Guohai Wu, Zhongwen Li. HM_ADET: a hybrid model for automatic detection of eyelid tumors based on photographic images[J]. BioMedical Engineering OnLine, 2024, 23(1): 25.</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang, Yi Zhang, He Xie, Jingshi Yang, Jiamin Gong, Zhongwen Li. A deep learning based fine-grained classification algorithm for grading of visual impairment in cataract patients[J]. Optoelectronics Letters, 2024, 20(1): 48-57.</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang, Wei Liu, Mengjie Pei, Liufei Guo, Jingshi Yang, Chengchao Wu, Jiaojiao Lu, Ruijie Gao, Wei Chen, Jiamin Gong, Mingmin Zhu, Zhongwen Li. Automatic diagnosis of keratitis using object localization combined with cost-sensitive deep attention convolutional neural network[J]. Journal of Big Data, 2023, 10(1): 121. (SCI二区，IF:8.1)</li>
+
+       <li class="row" data-v-2ac0dc42>蒋杰伟, 刘尚辉, 金库, 魏戌盟, 巩稼民. 一种基于蚁狮最大熵算法与引导滤波的图像融合算法[J]. 电子与信息学报, 2023, 45(4): 1391-1400.</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang, Yi Zhang, He Xie, Jiamin Gong, Shaomin Zhu, Shanjun Wu, Zhongwen Li. Deep learning-based automated grading of visual impairment in cataract patients using fundus images[J]. HIGH TECHNOLOGY LETTERS, 2023, 29(4): 377-387.</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang, Liufei Guo, Wei Liu, Chengchao Wu, Jiamin Gong, Zhongwen Li. Automatic diagnosis of multiple fundus lesions based on depth graph neural network[J]. Optoelectronics Letters, 2023, 19(5): 307-315.</li>
+
+       <li class="row" data-v-2ac0dc42>Zhongwen Li*#, Lei Wang#, Xuefang Wu#, Jiewei Jiang#, Wei Qiang, He Xie, Hongjian Zhou, Shanjun Wu, Yi Shao*, and Wei Chen*. Artificial intelligence in ophthalmology: The path to the real-world clinic[J]. Cell Reports Medicine, 2023, 4(7): 101095. (Cell子刊, IF: 14.3, 一区Top, 共同一作).</li>
+
+       <li class="row" data-v-2ac0dc42>He Xie, Zhongwen Li, Chengchao Wu, Yitian Zhao, Chengmin Lin, Zhouqian Wang, Chenxi Wang, Qinyi Gu, Minye Wang, Qinxiang Zheng*, Jiewei Jiang*, Wei Chen*. Deep learning for detecting visually impaired cataracts using fundus images[J]. Frontiers in Cell and Developmental Biology, 2023, 11: 1197239. （共同通讯）.</li>
+
+       <li class="row" data-v-2ac0dc42>Zhongwen Li*, Wei Qiang, Hongyun Chen, Mengjie Pei, Xiaomei Yu, Layi Wang, Zhen Li, Weiwei Xie, Xuefang Wu, Jiewei Jiang*, Guohai Wu*. Artificial intelligence to detect malignant eyelid tumors from photographic images [J]. NPJ Digital Medicine. 2022, 5(1):1-9. (Nature合作期刊，IF:15.2, 一区Top，共同通讯).</li>
+
+       <li class="row" data-v-2ac0dc42>Lang He, Mingyue Niu, Prayang Tiwari, Pekka Marttinen, Rui Su, Jiewei Jiang, Chenguang Guo, Hongyu Wang, Songtao Ding, Zhongmin Wang, Xiaoying Pan, Wei Dang. Deep learning for depression recognition with audiovisual cues: A review [J]. Information Fusion, 2022, 80:56-86. (一区Top，IF:18.6, 共同通讯).</li>
+
+       <li class="row" data-v-2ac0dc42>Zhongwen Li#, Jiewei Jiang#, Kuan Chen#, Qianqian Chen, Qinxiang Zheng, Xiaotian Liu, Hongfei Weng, Shanjun Wu, Wei Chen*. Preventing corneal blindness caused by keratitis using artificial intelligence [J]. Nature Communications, 2021, 12(1):1-12. (一区Top，Nature子刊，IF:16.6, 共同一作).</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang#, Liming Wang#, Haoran Fu#, Erping Long, Yibin Sun, Ruiyang Li, Zhongwen Li, Mingmin Zhu, Zhenzhen Liu, Jingjing Chen, Zhuoling Lin, Xiaohang Wu, Dongni Wang, Xiyang Liu*, Haotian Lin*. Automatic classification of heterogeneous slit-illumination images using an ensemble of cost-sensitive convolutional neural networks [J]. Annals of Translational Medicine, 2021, 9(7):550. (IF: 3.64).</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang#, Shutao Lei#, Mingmin Zhu#, Ruiyang Li#, Jiayun Yue, Jingjing Chen, Zhongwen Li, Jiamin Gong, Duoru Lin, Xiaohang Wu, Zhuoling Lin, Haotian Lin*. Improving the Generalizability of Infantile Cataracts Detection via Deep Learning-Based Lens Partition Strategy and Multicenter Datasets [J]. Frontiers in Medicine, 2021, 8: 470. (IF: 4.035).</li>
+
+       <li class="row" data-v-2ac0dc42>Li, Zhongwen#, Jiewei Jiang#, Wei Qiang, Liufei Guo, Xiaotian Liu, Hongfei Weng, Shanjun Wu, Qinxiang Zheng*, Wei Chen*. Comparison of deep learning systems and cornea specialists in detecting corneal diseases from low-quality images [J]. Iscience, 2021, 24.11:103317. (Cell子刊, IF: 4.953, 共同一作).</li>
+
+       <li class="row" data-v-2ac0dc42>Zhongwen Li#, Jiewei Jiang#, Kuan Chen#, Qinxiang Zheng, Xiaotian Liu, Hongfei Weng, Shanjun Wu, Wei Chen*. Development of a deep learning-based image quality control system to detect and filter out ineligible slit-lamp images: A multicenter study [J]. Computer Methods and Programs in Biomedicine, 2021, 203: 106048. (IF: 4.161, 共同一作).</li>
+
+       <li class="row" data-v-2ac0dc42>Zhongwen Li#, Jiewei Jiang#, Heding Zhou#, Qinxiang Zheng, Xiaotian Liu, Kuan Chen, Hongfei Weng, Wei Chen*. Development of a deep learning-based image eligibility verification system for detecting and filtering out ineligible fundus images: A multicentre study [J]. International Journal of Medical Informatics, 2021, 147:104363. (IF: 3.267, 共同一作).</li>
+
+       <li class="row" data-v-2ac0dc42>蒋杰伟#, 刘西洋, 刘琳, 王帅, 杨皓庆, 崔江涛*. 一种眼病发展趋势的自动预测方法 [J]. 西安电子科技大学学报, 2018, 45(06):25-31. (EI检索号：20191206653121).</li>
+
+       <li class="row" data-v-2ac0dc42>Jiewei Jiang, Xiyang Liu*, Kai Zhang, Erping Long, Liming Wang, Wangting Li, Lin Liu, Shuai Wang, Mingmin Zhu, Jiangtao Cui, Zhenzhen Liu, Zhuoling Lin, Xiaoyan Li, Jingjing Chen, Qianzhong Cao, Jing Li, Xiaohang Wu, Dongni Wang, Jinghui Wang, Haotian Lin*. Automatic diagnosis of imbalanced ophthalmic images using a cost-sensitive deep convolutional neural network [J]. Biomedical Engineering Online, 2017, 16(1):132. (IF: 2.297).</li>
+
+       <li class="row" data-v-2ac0dc42>Erping Long#, Haotian Lin#*, Zhenzhen Liu, Xiaohang Wu, Liming Wang, Jiewei Jiang, Yingying An, Zhuoling Lin, Xiaoyan Li, Jingjing Chen, Jing Li, Qianzhong Cao, Dongni Wang, Xiyang Liu, Weirong Chen, Yizhi Liu*. An artificial intelligence platform for the multihospital collaborative management of congenital cataracts [J]. Nature Biomedical Engineering, 2017, 1(2):0024. (Nature子刊，一区Top，IF：20.586).</li>
+
+    
+
+
+
+
+
+    </ul>
+
+  
+
+
+
+  </div>` };
+const Ask = { template: `  <div class="component" data-v-10a5daeb>
+
+    <ul data-v-10a5daeb>
+
+      <li data-v-10a5daeb>崔亦伟，2023级研究生，研究方向：眼科疾病自动诊断和预测；</li>
+
+      <li data-v-10a5daeb>李&nbsp;&nbsp;&nbsp;宽，2023级研究生，研究方向：眼科疾病自动诊断和预测；</li>
+
+      <li data-v-10a5daeb>王&nbsp;&nbsp;&nbsp;宁，2023级研究生，研究方向：眼科疾病自动诊断和预测；</li>
+
+      <li data-v-10a5daeb>丁&nbsp;&nbsp;&nbsp;科，2022级研究生，研究方向：角膜炎疾病自动诊断；</li>
+
+      <li data-v-10a5daeb>辛&nbsp;&nbsp;&nbsp;宇，2022级研究生，研究方向：角膜炎模糊图像去噪声及自动诊断；</li>
+
+      <li data-v-10a5daeb>张&nbsp;&nbsp;&nbsp;依，2021级研究生，研究方向：基于眼底图像的白内障自动诊断；</li>
+
+      <li data-v-10a5daeb>刘海洋，2021级研究生，研究方向：眼肿瘤病灶定位和诊断；</li>
+
+      <li data-v-10a5daeb>刘尚辉，2021级研究生，研究方向：红外和可见光图像融合算法研究；</li>
+
+      <li data-v-10a5daeb>郭刘飞，2020级研究生，研究方向：眼底多病眼肿瘤病灶定位和诊断；</li>
+
+      <li data-v-10a5daeb>裴梦杰，2020级研究生，研究方向：基于多标签分类的眼底病变识别；</li>
+
+      <li data-v-10a5daeb>刘&nbsp;&nbsp;&nbsp;威，2020级研究生，研究方向：角膜炎疾病自动筛查；</li>
+
+
+
+    </ul>
+
+    
+
+  </div>` };
+const Yaoqiu2 = { template: `  <div class="component" data-v-739f3672>
+
+  <ul data-v-739f3672>
+
+   <li data-v-739f3672>实验室为研究生提供良好的软、硬件与科研环境，充分的工程实践与前沿科研项目锻炼机会；</li>
+
+   <li data-v-739f3672>欢迎踏实、勤奋、认真，具有较好的计算机编程、数学基础和外语能力，对机器学习、深度学习、图像处理和计算机算法感兴趣的同学咨询和报考；</li>
+
+   <li data-v-739f3672>电子信息、电子科学与技术、通信与信息系统、人工智能、计算机科学、软件工程等背景的同学，参加过数学类竞赛、程序设计大赛、电子设计竞赛、互联网+竞赛等并取得较好成绩者优先；</li>
+
+   <li data-v-739f3672>务必在获取保研资格或考研录取后第一时间联系，以确定名额是否还有空缺;</li>
+
+   </ul>
+
+  </div>` };
+    const app = Vue.createApp({
+      components: { StudyDirection, Treatise, StudentInfor: StudentInformation, ScientificTeam, Ask, yaoqiu2: Yaoqiu2 },
+      template: `  <div style="width:100%;" data-v-fe60f26e>
+    <div class="container" v-if="!isWidth" data-v-fe60f26e>
+      <div class="accordingByWidth" data-v-fe60f26e>
+        <div class="header" data-v-fe60f26e>
+          <div class="header-top" data-v-fe60f26e>
+            <div class="title" data-v-fe60f26e>蒋杰伟个人主页</div>
+          </div>
+          <div class="header-bottom bottom" data-v-fe60f26e>
+            <img style="width: 176px; height: 176px; border-radius:50%;object-fit: cover;" 
+            src="img/photo.b64e308c.jpg" data-v-fe60f26e/>
+            <div class="name" data-v-fe60f26e></div>
+            <div class="flexcenter" data-v-fe60f26e>
+              <img style="width: 18px; height: 18px;object-fit: cover;margin:10px 0;" 
+              src="img/address.png" data-v-fe60f26e/>
+              <span class="smallname" data-v-fe60f26e>中国·西安</span>
+            </div>
+            <div class="smallname" data-v-fe60f26e>西安邮电大学 电子工程学院</div>
+            <div class="smallname" data-v-fe60f26e>副教授 硕士生导师</div>
+            
+            <div class="flexcenter" data-v-fe60f26e>
+              <img style="width: 15px; height: 15px;object-fit: cover;margin:8px 0;" 
+              src="img/email.png" data-v-fe60f26e/>
+              <span class="smallname" data-v-fe60f26e>jiangjw924@126.com</span>
+            </div>
+            <div class="flexcenter" data-v-fe60f26e>
+              <img style="width: 15px; height: 15px;object-fit: cover;margin:10px 0;" 
+              src="img/email.png" data-v-fe60f26e/>
+              <span class="smallname" data-v-fe60f26e>jiangjiewei@xupt.edu.cn</span>
+            </div>
+            <div class="flexcenter" data-v-fe60f26e>
+              <img style="width: 15px; height: 15px;object-fit: cover;margin:10px 0;" 
+              src="img/email.png" data-v-fe60f26e/>
+              <span class="smallname" data-v-fe60f26e>158993244@qq.com</span>
+            </div>
+            
+            <div data-v-fe60f26e></div>
+          </div>
+        </div>
+        <div class="main" data-v-fe60f26e>
+          <div class="main-top" data-v-fe60f26e>
+            <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick" data-v-fe60f26e>
+              <el-tab-pane
+                v-for="(item, index) in tabsList"
+                :key="index"
+                :label="item.label"
+                :name="item.name" data-v-fe60f26e>
+
+                <div class="file" v-if="activeName=='1'" data-v-fe60f26e>
+                  <study-direction data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='4'" data-v-fe60f26e>
+                  <treatise data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='2'" data-v-fe60f26e>
+                  <scientific-team data-v-fe60f26e/>        
+                  </div>
+                <div class="file" v-if="activeName=='3'" data-v-fe60f26e>
+                  <student-infor data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='5'" data-v-fe60f26e>
+                  <Ask data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='6'" data-v-fe60f26e>
+                  <yaoqiu2 data-v-fe60f26e/>
+                </div>
+                </el-tab-pane
+              >
+            </el-tabs>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-if="isWidth" class="FalseContainer" data-v-fe60f26e>
+      <div class="accordingByFalseWidth" data-v-fe60f26e>
+        <div class="header" data-v-fe60f26e>
+          <div class="header-top" data-v-fe60f26e>
+            <div class="title" data-v-fe60f26e>个人主页</div>
+          </div>
+          <div class="header-bottom bottom" data-v-fe60f26e>
+            <div style="display: flex;" data-v-fe60f26e>
+              <div class="header-left" data-v-fe60f26e>
+                <img class="img" src="img/photo.b64e308c.jpg" data-v-fe60f26e/>
+              </div>
+              <div class="header-right" data-v-fe60f26e>
+                <div class="header-title" style="line-height:30px;font-size:1.1em;font-weight:600;" data-v-fe60f26e>蒋杰伟</div>
+                <div class="header-title" style="line-height:20px;font-size:0.5em;" data-v-fe60f26e>西安邮电大学 电子工程学院 副教授 硕士生导师</div>
+              </div>
+            </div>
+            <div style="height:75x;margin-bottom:5px;" data-v-fe60f26e>
+              <div class="flex-img" data-v-fe60f26e>
+                <img class="isImg" src="img/address.png" data-v-fe60f26e/>
+                <span data-v-fe60f26e>中国·西安</span>
+              </div>
+              <div class="flex-img" data-v-fe60f26e>
+                <img class="isImg" src="img/email.png" data-v-fe60f26e/>
+                <span data-v-fe60f26e>jiangjw924@126.com</span>
+              </div>
+               <div class="flex-img" data-v-fe60f26e>
+                <img class="isImg" src="img/email.png" data-v-fe60f26e/>
+                <span data-v-fe60f26e>jjiangjiewei@xupt.edu.cn</span>
+              </div>
+              <div class="flex-img" data-v-fe60f26e>
+                <img class="isImg" src="img/email.png" data-v-fe60f26e/>
+                <span data-v-fe60f26e>158993244@qq.com</span>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="main" data-v-fe60f26e>
+          <div class="main-top" data-v-fe60f26e>
+            <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick" data-v-fe60f26e>
+              <el-tab-pane
+                v-for="(item, index) in tabsList"
+                :key="index"
+                :label="item.label"
+                :name="item.name" data-v-fe60f26e>
+
+                <div class="file" v-if="activeName=='1'" data-v-fe60f26e>
+                  <study-direction data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='4'" data-v-fe60f26e>
+                  <treatise data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='2'" data-v-fe60f26e>
+                  <scientific-team data-v-fe60f26e/>        
+                  </div>
+                <div class="file" v-if="activeName=='3'" data-v-fe60f26e>
+                  <student-infor data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='5'" data-v-fe60f26e>
+                  <Ask data-v-fe60f26e/>
+                </div>
+                <div class="file" v-if="activeName=='6'" data-v-fe60f26e>
+                  <yaoqiu2 data-v-fe60f26e/>
+                </div>
+                </el-tab-pane
+              >
+            </el-tabs>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>`,
+      setup() {
+        const { ref, onMounted } = Vue;
+        const tabsList = [
+          { label: "个人信息", name: "1", text: "11" },
+          { label: "论文著作", name: "2", text: "22" },
+          { label: "科研项目", name: "3", text: "33" },
+          // { label: "教学方向", name: "4", text: "44" },
+          { label: "核心团队", name: "5", text: "44" },
+          { label: "招生信息", name: "6", text: "44" },
+        ];
+        const activeName = ref("1");
+        const isWidth = ref(false);
+        const handleClick = (tab, event) => {
+          console.log(tab.props.label, event);
+          let name = tab.props.name;
+          activeName.value = name;
+        };
+        const bodyScale = () => {
+          let devicewidth = document.documentElement.clientWidth; //获取当前分辨率下的可是区域宽度
+          console.log("devicewidth", devicewidth);
+          if (devicewidth <= 450) {
+            isWidth.value = true;
+          } else {
+            isWidth.value = false;
+          }
+          // let scale = devicewidth / 1920 // 分母——设计稿的尺寸
+          // document.body.style.zoom = scale//放大缩小相应倍数
+        };
+        onMounted(() => {
+          bodyScale();
+          window.onresize = () => {
+            return (() => {
+              bodyScale();
+            })();
+          };
+        });
+        return { tabsList, activeName, isWidth, handleClick };
+      }
+    });
+    app.use(ElementPlus);
+    app.mount("#app");
+  </script>
+</body>
+</html>
